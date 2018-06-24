@@ -4,7 +4,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('load', function(){addClass('tasty')});
+  $('img').on('load', function(){
+    addClass('tasty')});
 }
 
 function pressIt() {
@@ -28,6 +29,9 @@ function submitIt() {
 
 $(document).ready(function(){
 
-// call functions here
+getIt()
+frameIt()
+pressIt()
+submitIt()
 
 });
