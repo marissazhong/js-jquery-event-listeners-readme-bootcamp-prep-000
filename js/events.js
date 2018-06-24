@@ -9,8 +9,10 @@ function frameIt() {
 
 function pressIt() {
   $(document).on('keydown', function(key) {
-    if(key.which == )
-  })
+    if(key.which == 7){
+      alert('G was pressed');
+    }
+  });
 }
 
 function submitIt() {
